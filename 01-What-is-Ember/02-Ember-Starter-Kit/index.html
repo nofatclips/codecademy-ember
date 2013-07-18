@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>Ember Starter Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. This is a Handlebars template. A template is like a mold
+            that allows you to create pieces of HTML that you can
+            paste around your web page. In this case, the template
+            will always print the same "Welcome" message, to keep
+            it simple. Handlebars is the name of the format as well
+            as the library that takes your template and turns it
+            into HTML: again, in this case we only have pure HTML
+            for the sake of simplicity, but you can easily imagine
+            that we'd like to print our name instead of the word
+            "Codecademian". We'll get there soon.
+    -->
+    <script type="text/x-handlebars">
+        <h2>Hello Codecademian, and Welcome to Ember.js</h2>
+    </script>
+    
+    Waiting for Ember application to start...
+
+    <!-- 2. Ember.js is an ambitious library to build ambitious
+            applications, therefore it requires several libraries
+            itself in order to work. We're importing a recent
+            version of jQuery, Handlebars which you've already
+            met, then Ember itself and finally our very own
+            little application.
+            The order is important here: Ember won't work without
+            jQuery or Handlebars.
+            Usually, Ember is also accompanied by Ember Data, a
+            separate library to handle data models, but we'll deal
+            with it later.
+    -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0-rc.4/handlebars.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.0.0-rc.6/ember.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
