@@ -1,4 +1,5 @@
-[[Welcome to Ember.js]]
+Welcome to Ember.js
+===================
 
 Hello fellow Codecademian!
 
