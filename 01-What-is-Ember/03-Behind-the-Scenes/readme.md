@@ -1,4 +1,5 @@
-[[Behind the Scenes]]
+Behind the Scenes
+=================
 
 Before we go on to build something more meaningful, I think it's important to understand what just happened.
 
