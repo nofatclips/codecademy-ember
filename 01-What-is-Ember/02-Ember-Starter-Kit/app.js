@@ -1,4 +1,5 @@
-//Once you uncomment this code, it will start our application.
-//Yes, that's all there is to it!
+// Once you uncomment the following line of code
+// our application will start.
+// Yes, that's all there is to it!
 
 //Ember.Application.create();
