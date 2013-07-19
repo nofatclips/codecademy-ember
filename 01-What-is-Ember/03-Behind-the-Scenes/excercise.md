@@ -13,3 +13,5 @@ The template should look like this:
     </script>
 
 You can use whatever markup you like, as long as you enclose it in the `script` tags.
+
+Again, notice that the type is `text/x-handlebars`.
