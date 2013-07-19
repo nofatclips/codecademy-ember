@@ -2,4 +2,4 @@
 // our application will start.
 // Yes, that's all there is to it!
 
-//Ember.Application.create();
+// var TheApplication = Ember.Application.create();
