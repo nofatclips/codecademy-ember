@@ -3,7 +3,7 @@ Template, thy name is Application
 
 So, the last template was the one that made it to the screen. But what actually happened is a little tad more complex than this.
 
-Every template has a name. If you don't define one, Ember.js will give it the default name, which is `application`. To specify your own name, add a `template-name` data tag to the `<script>` tag opening the template:
+Every template has a name. If you don't define one, Ember.js will give it the default name, which is `application`. To specify your own name, add a `data-template-name` tag to the `<script>` tag opening the template:
 
     <script type="text/x-handlebars" data-template-name="your-own-name">
         some markup here
