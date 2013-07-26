@@ -9,8 +9,10 @@ Every template has a name. If you don't define one, Ember.js will give it the de
         some markup here
     </script>
 
-Also (again, by default) when the application starts, Ember looks for a template called (surprise, surprise!) `application` and displays it on the screen.
+What happened, then, is that our first template was saved with a name of `application`. Our second template was also saved with a name of `application`, overwriting the first one. So we actually ended up with a single template, which is the one shown on the screen! But then again: why does anything shows at all?
 
-This is a common pattern in Ember: if elements are aptly named following a certain convention, you don't need to specify which one to use. In this case we didn't need to configure which template to show at startup. You can always override this defaults, but why would you do that?
+That's because (again, by default) when the application starts Ember looks for a template called (surprise, surprise!) `application` and displays it on the screen.
 
-To put it in buzzwords: Ember relies on **convention over configuration**.
+This is a common pattern in Ember: if elements are aptly named following a certain convention, you don't need to specify which one to use. In this case we didn't need to configure which template to show at startup. You can always override these defaults, but why would you do that?
+
+To put it in buzzwords: Ember relies on **convention over configuration**. And you should too.
