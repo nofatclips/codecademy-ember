@@ -1,8 +1,7 @@
 Instructions
 ============
 
-Let's give the second template a name of `my-template`, so that the first one becomes the application template and is shown again.
-
+Let's give the second template a name of our choice: anything will do. Can you guess what is gonna happen? The first one will become the application template and will be shown again in the web page.
 Hint
 ----
 
