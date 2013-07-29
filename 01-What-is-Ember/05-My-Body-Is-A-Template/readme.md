@@ -1,3 +1,6 @@
+My <body> is a template
+=======================
+
 So, it should be clear by now that Ember is storing both our templates in some object, using their name as the key. However, only one of our templates is currently displayed. What a waste of good markup!
 
 We'll see more interesting ways of combining multiple templates to build a page of your applications, but let's start with the simplest, which is also the best way to introduce HandleBars helpers.
