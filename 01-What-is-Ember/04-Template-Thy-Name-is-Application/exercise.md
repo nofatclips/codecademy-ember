@@ -11,6 +11,6 @@ Hint
 Your template should look like:
 
     <!-- Create your own Handlebars template here -->
-    <script type="text/x-handlebars" data-template-name="my-template">
+    <script type="text/x-handlebars" data-template-name="someNameHere">
         whatever you typed here
     </script>
