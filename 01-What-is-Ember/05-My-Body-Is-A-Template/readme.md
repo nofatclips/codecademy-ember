@@ -1,4 +1,4 @@
-My <body> is a template
+My &lt;body&gt; is a template
 =======================
 
 So, it should be clear by now that Ember is storing both our templates in some object, using their name as the key. However, only one of our templates is currently displayed. What a waste of good markup!
