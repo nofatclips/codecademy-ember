@@ -17,4 +17,4 @@ Helpers can take arguments too. You just place them in the double braces, after 
 
     {{helperFunction arg1 arg2}}
 
-The helper we're going to use is called `template`. It allows to render a template inside another template by specifying its name as an argument.
+The helper we're going to use is called [template](http://emberjs.com/api/classes/Ember.Handlebars.helpers.html#method_template). It allows to render a template inside another template by specifying its name as an argument.
