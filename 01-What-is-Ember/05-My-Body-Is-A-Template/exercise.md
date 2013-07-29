@@ -12,3 +12,5 @@ The application template should look like:
         <h2>Hello Codecademian, and Welcome to Ember</h2>
         {{partial "someNameHere"}}
     </script>
+
+where `someNameHere` is the name you used in the `data-template-name` tag.
