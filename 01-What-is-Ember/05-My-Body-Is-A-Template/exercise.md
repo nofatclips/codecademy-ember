@@ -13,4 +13,4 @@ The application template should look like:
         {{partial "someNameHere"}}
     </script>
 
-where `someNameHere` is the name you used in the `data-template-name` tag.
+where `someNameHere` is the name you used in the `data-template-name` tag. It's a string, so you need to wrap it in quotes.
